@@ -4,18 +4,15 @@ option1 = ["s", "w", "g"]
 no_of_chance = 0
 computer_point = 0
 your_point = 0
+
 def computer_win():
-    import random
-    no_of_chance = 0
-    computer_point = 0
-    your_point = 0
+    global computer_point
     computer_point = computer_point + 1
     print(f"your gues {user_1} and computer guess is {rand_random}\n")
     print("Computer has 1 point")
     print(f"computer point is {computer_point} and your point is {user_1}")
 def user_win():
-    computer_point = 0
-    your_point = 0
+    global your_point
     your_point=your_point+1
     print(f"your gues {user_1} and computer guess is {rand_random}\n")
     print("you has 1 point")
@@ -31,22 +28,16 @@ for i in range(run_time) :
             print("Tie Both are same!")
         if user_1=="s" and rand_random=="g":
             computer_win()
-            computer_point = computer_point + 1
         elif user_1=="s" and rand_random=="w":
             user_win()
-            your_point = your_point + 1
         elif user_1=="w" and rand_random=="s":
             computer_win()
-            computer_point = computer_point + 1
         elif user_1 == "w" and rand_random == "g":
             user_win()
-            your_point = your_point + 1
         elif user_1 == "g" and rand_random == "s":
             user_win()
-            your_point = your_point + 1
         elif user_1 == "g" and rand_random == "w":
             computer_win()
-            computer_point = computer_point + 1
         else:
             print("please write input")
         no_of_chance = no_of_chance + 1
@@ -59,5 +50,4 @@ if computer_point > your_point:
 
 if computer_point < your_point:
     print("you win and computer loose")
-
 print(f"your point is {your_point} and computer point is {computer_point}")
