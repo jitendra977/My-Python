@@ -1,1 +1,7 @@
-this is the write test for open file writing mode [w]
+seek()
+When we open a file, the system points to the beginning of the file.
+Any read or write will happen from the start. To change the file object’s position,
+use seek(offset, whence) function. The position will compute by adding offset to a reference point,
+and the whence argument selects the reference point. It is useful when operating over an open file.
+If we want to read the file but skip the first 5 bytes, open the file, use function seek(5)
+to move to where you want to start reading, and then continue reading the file.

@@ -1,1 +1,18 @@
-['None']: done
+
+['2020-08-14 11:27:32.458752']: done
+['2020-08-14 11:53:09.264040']: doneYour Log 
+['2020-08-14 12:02:10.089546']: dDrank Water I want healthy 
+['2020-08-14 12:02:22.531962']: sI can't drink water. 
+['2020-08-14 12:03:02.551470']: sI can't drink water. 
+['2020-08-14 12:12:30.055191']: sI can't drink water. 
+['2020-08-14 12:12:42.518232']: dDrank Water I want healthy 
+['2020-08-14 12:12:45.251785']: sI can't drink water. 
+['2020-08-14 12:13:19.448183']: sI can't drink water. 
+['2020-08-14 12:20:49.231191']: dDrank Water I want healthy 
+['2020-08-14 12:24:14.240066']: Drank Water I want healthy 
+['2020-08-14 12:25:40.081606']: Can't drink water 
+['2020-08-14 12:25:47.874699']: I can't drink water. 
+['2020-08-14 12:36:21.735208']: I can't drink water. 
+['2020-08-14 12:37:34.491006']: I can't drink water. 
+['2020-08-14 12:37:39.092190']: Drank Water I want healthy 
+['2020-08-14 12:37:40.885347']: Can't drink water 
