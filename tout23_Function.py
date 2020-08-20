@@ -13,4 +13,3 @@ def func2(a, b):
 
 
 func(5, 6)
-func2(10, 15)
