@@ -18,3 +18,4 @@ if __name__ == '__main__':
     for i in range(0, 11):
         speak(my_json['articles'][i]['title'])
     print(response.json())
+    print(text)

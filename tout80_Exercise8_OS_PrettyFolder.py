@@ -9,7 +9,7 @@ for filename in os.listdir(path):
     print(extension)
     if extension == "txt":
         os.rename(os.path.join(path, filename),
-                  os.path.join(path, 'File_' + str(i) + str("_") + str(Current_Date) + '.txt'))
+                  os.path.join(path, filename[0] + str(i) + str("_") + str(Current_Date) + '.txt'))
         i = i + 1
     if extension == "jpg":
         os.rename(os.path.join(path, filename),
